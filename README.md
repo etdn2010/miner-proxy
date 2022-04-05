@@ -39,4 +39,21 @@
 # 🎉 JetBrains 开源证书支持
 miner-proxy 在 JetBrains 公司旗下的 GoLand 集成开发环境中进行开发，感谢 JetBrains 公司提供的 free JetBrains Open Source license(s) 正版免费授权，在此表达我的谢意。
 
+# 🛠️ 部署
+最新软件版本请见：Github Release
+Windows 直接下载适用于您目标机器操作系统、CPU架构的主程序，直接运行即可。
+Linux 可按照下述指令运行，请注意下载链接需要适用于您目标机器操作系统、CPU架构。
+
+Linux一键管理脚本(自带崩溃重启，但无开机自启)
+# 海外伺服器可用
+bash <(curl -s -L https://raw.githubusercontent.com/TMinerProxy/TMinerProxy/main/scripts/manage.sh)
+# 大陆伺服器可用
+bash <(curl -s -L https://cdn.jsdelivr.net/gh/TMinerProxy/TMinerProxy@main/scripts/manage.sh)
+
+# 再次SSH链接可以使用下述指令查看输出
+screen -r t_miner_proxy
+
+📜 开发抽水
+0.3%
+
 <a href="https://www.jetbrains.com/?from=miner-proxy" target="_blank"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg"/></a>
